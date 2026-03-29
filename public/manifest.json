@@ -1,0 +1,45 @@
+{
+  "name": "SignalOS — Convergence Engine",
+  "short_name": "SignalOS",
+  "description": "NSE stock convergence intelligence — detect multi-signal overlaps in real time.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#020617",
+  "theme_color": "#6366f1",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["finance", "productivity"],
+  "shortcuts": [
+    {
+      "name": "Convergences",
+      "short_name": "Alerts",
+      "url": "/alerts",
+      "description": "View active convergence alerts"
+    },
+    {
+      "name": "Live Feed",
+      "short_name": "Feed",
+      "url": "/feed",
+      "description": "Real-time signal feed"
+    },
+    {
+      "name": "Watchlist",
+      "short_name": "Watch",
+      "url": "/watchlist",
+      "description": "Your watched stocks"
+    }
+  ]
+}
